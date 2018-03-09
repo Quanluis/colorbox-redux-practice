@@ -13,4 +13,14 @@ class App extends Component {
   }
 }
 
-export default App;
+// mapStateToProps
+const mapStateToProps = null; 
+
+//mapDispatchToProps
+const mapDispatchToProps = null;
+
+
+
+// wrap the app in connect 
+
+export default (mapState)(App);
